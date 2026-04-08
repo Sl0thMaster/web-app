@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volkswagen Golf</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="auto">
+      <header>
+        <h1>Volkswagen Golf</h1>
+      </header>
+
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+      </nav>
+
+      <img
+        src="img/volkswagen-golf.jpg"
+        alt="Auto Image"
+        onclick="openImageInNewWindow(this.src)"
+      />
+
+      <div class="auto-description">
+        <h2>Описание</h2>
+        <p>
+          Volkswagen Golf (7-е поколение) — один из самых технологичных компактных хэтчбеков 2015 года. 
+          Лидер продаж в Европе, победитель множества наград «Автомобиль года». Идеальный баланс динамики, 
+          комфорта и экономичности.
+        </p>
+      </div>
+
+      <div class="auto-specifications">
+        <h2>Характеристики</h2>
+        <ul>
+          <li>Пассажировместимость: 5</li>
+          <li>Двигатель: 1.8 TSI 170 л.с. / 2.0 TDI 150 л.с.</li>
+          <li>Расход: 6,5–7,5 л/100 км</li>
+          <li>Крейсерская скорость: до 210 км/ч</li>
+          <li>Длина: 4,26 м</li>
+          <li>Колёсная база: 2,64 м</li>
+          <li>Масса: 1250–1350 кг</li>
+          <li>Трансмиссия: 6-МКПП / DSG</li>
+        </ul>
+
+        <h2>Особенности</h2>
+        <ul>
+          <li>Передовая система MQB и цифровая приборная панель</li>
+          <li>Отличная управляемость и жёсткий кузов</li>
+          <li>Экономичный дизель TDI с крутящим моментом 320 Н·м</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      function openImageInNewWindow(src) {
+        window.open(src);
+      }
+    </script>
+  </body>
+  <footer>&copy; 2026 Все права защищены</footer>
+</html>

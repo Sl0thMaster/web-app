@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ford Focus</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="auto">
+      <header>
+        <h1>Ford Focus</h1>
+      </header>
+
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+      </nav>
+
+      <img
+        src="img/ford-focus.jpg"
+        alt="Auto Image"
+        onclick="openImageInNewWindow(this.src)"
+      />
+
+      <div class="auto-description">
+        <h2>Описание</h2>
+        <p>
+          Ford Focus — динамичный компактный автомобиль с европейским характером. Получил 
+          обновлённый дизайн, улучшенную подвеску и новые системы помощи водителю. Один из 
+          лидеров продаж в своём классе.
+        </p>
+      </div>
+
+      <div class="auto-specifications">
+        <h2>Характеристики</h2>
+        <ul>
+          <li>Пассажировместимость: 5</li>
+          <li>Двигатель: 2.0 л FlexFuel 160 л.с.</li>
+          <li>Расход: 7,8–8,5 л/100 км</li>
+          <li>Крейсерская скорость: до 200 км/ч</li>
+          <li>Длина: 4,53 м</li>
+          <li>Колёсная база: 2,64 м</li>
+          <li>Масса: 1300–1400 кг</li>
+          <li>Трансмиссия: 6-ст. АКПП / МКПП</li>
+        </ul>
+
+        <h2>Особенности</h2>
+        <ul>
+          <li>Улучшенная система MyFord Touch и SYNC</li>
+          <li>Спортивная подвеска с отличной управляемостью</li>
+          <li>Высокий уровень активной безопасности</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      function openImageInNewWindow(src) {
+        window.open(src);
+      }
+    </script>
+  </body>
+  <footer>&copy; 2026 Все права защищены</footer>
+</html>

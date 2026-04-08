@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyundai Elantra</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="auto">
+      <header>
+        <h1>Hyundai Elantra</h1>
+      </header>
+
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+      </nav>
+
+      <img
+        src="img/hyundai-elantra.jpg"
+        alt="Auto Image"
+        onclick="openImageInNewWindow(this.src)"
+      />
+
+      <div class="auto-description">
+        <h2>Описание</h2>
+        <p>
+          Hyundai Elantra (6-е поколение) — стильный и оснащённый компактный седан с 5-летней гарантией. 
+          Стал одним из самых продаваемых благодаря дизайну, оснащению и цене.
+        </p>
+      </div>
+
+      <div class="auto-specifications">
+        <h2>Характеристики</h2>
+        <ul>
+          <li>Пассажировместимость: 5</li>
+          <li>Двигатель: 1.8 л 145 л.с. / 2.0 л 173 л.с. (Sport)</li>
+          <li>Расход: 7,5–8,5 л/100 км</li>
+          <li>Крейсерская скорость: до 195 км/ч</li>
+          <li>Длина: 4,55 м</li>
+          <li>Колёсная база: 2,70 м</li>
+          <li>Масса: 1280–1350 кг</li>
+          <li>Трансмиссия: 6-ст. АКПП / МКПП</li>
+        </ul>
+
+        <h2>Особенности</h2>
+        <ul>
+          <li>Современный дизайн Fluidic Sculpture 2.0</li>
+          <li>Богатое оснащение уже в базе (климат, камера, подогрев)</li>
+          <li>Отличная шумоизоляция и 5-летняя гарантия</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      function openImageInNewWindow(src) {
+        window.open(src);
+      }
+    </script>
+  </body>
+  <footer>&copy; 2026 Все права защищены</footer>
+</html>
